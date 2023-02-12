@@ -4,114 +4,136 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Document</title>
-
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css" />
     <script src="libs/swiper/swiper-bundle.min.js" defer></script>
     <script src="libs/particles/particles.js" defer></script>
-
-    <link rel="stylesheet" href="css/main.css" />
     <script src="js/app.js" defer></script>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>The Witcher Wild Hunt</title>
   </head>
   <body>
-    <div class="swiper slider">
-      <div class="swiper-wrapper slider__wrapper">
-        <div class="swiper-slide slider__item">
-          <div
-            class="slider__layer"
-            data-swiper-parallax="48%"
-            style="background-image: url(img/screen-3/layer-back.jpg)"
-          ></div>
-          <div
-            class="slider__layer"
-            data-swiper-parallax="35%"
-            style="background-image: url(img/screen-3/layer-middle.png)"
-          ></div>
-          <div
-            class="slider__layer"
-            data-swiper-parallax="29%"
-            style="background-image: url(img/screen-3/layer-ciri.png)"
-          ></div>
-          <canvas
-            class="particles slider__layer"
-            data-swiper-parallax="25%"
-            data-color="#938086"
-          ></canvas>
-          <div
-            class="slider__layer"
-            data-swiper-parallax="16%"
-            style="background-image: url(img/screen-3/layer-front.png)"
-          ></div>
+    <div class="wpapper">
+      <main class="slider swiper">
+        <div class="slider__wrapper swiper-wrapper">
+          <div class="slider__item slider__item--1 swiper-slide">
+            <div
+              class="slider__layer"
+              data-swiper-parallax="45%"
+              style="background-image: url('img/header/header_0.png')"
+            ></div>
+            <canvas
+              data-swiper-parallax="25%"
+              class="particles slider__layer"
+              data-color="#c2fffe"
+            ></canvas>
+            <div
+              class="slider__layer"
+              data-swiper-parallax="15%"
+              style="background-image: url('img/header/header_1.png')"
+            ></div>
+          </div>
+          <div class="slider__item slider__item--2 swiper-slide">
+            <div
+              class="slider__layer"
+              data-swiper-parallax="35%"
+              style="background-image: url('img/screen-1/layer-back.jpg')"
+            ></div>
+            <div
+              class="slider__layer"
+              data-swiper-parallax="25%"
+              style="background-image: url('img/screen-1/layer-middle.png')"
+            ></div>
+            <canvas
+              data-swiper-parallax="20%"
+              class="particles slider__layer"
+              data-color="#B99970"
+            ></canvas>
+            <div
+              class="slider__layer"
+              data-swiper-parallax="15%"
+              style="background-image: url('img/screen-1/layer-front.png')"
+            ></div>
+          </div>
+          <div class="slider__item slider__item--3 swiper-slide">
+            <div
+              class="slider__layer"
+              data-swiper-parallax="40%"
+              style="background-image: url('img/screen-2/layer-back.jpg')"
+            ></div>
+            <div
+              class="slider__layer"
+              data-swiper-parallax="34%"
+              style="background-image: url('img/screen-2/layer-gera.png')"
+            ></div>
+            <div
+              class="slider__layer"
+              data-swiper-parallax="30%"
+              style="background-image: url('img/screen-2/layer-yen.png')"
+            ></div>
+            <canvas
+              data-swiper-parallax="20%"
+              class="particles slider__layer"
+              data-color="#689b54"
+            ></canvas>
+            <div
+              class="slider__layer"
+              data-swiper-parallax="15%"
+              style="background-image: url('img/screen-2/layer-front.png')"
+            ></div>
+          </div>
+          <div class="slider__item slider__item--4 swiper-slide">
+            <div
+              class="slider__layer"
+              data-swiper-parallax="45%"
+              style="background-image: url('img/screen-3/layer-back.jpg')"
+            ></div>
+            <div
+              class="slider__layer"
+              data-swiper-parallax="35%"
+              style="background-image: url('img/screen-3/layer-middle.png')"
+            ></div>
+            <div
+              class="slider__layer"
+              data-swiper-parallax="30%"
+              style="background-image: url('img/screen-3/layer-ciri.png')"
+            ></div>
+            <canvas
+              data-swiper-parallax="20%"
+              class="particles slider__layer"
+              data-color="#cac7b5"
+            ></canvas>
+            <div
+              class="slider__layer"
+              data-swiper-parallax="15%"
+              style="background-image: url('img/screen-3/layer-front.png')"
+            ></div>
+          </div>
+          <div class="slider__item slider__item--5 swiper-slide">
+            <div
+              class="slider__layer"
+              data-swiper-parallax="45%"
+              style="background-image: url('img/footer/footer_0.png')"
+            ></div>
+            <div
+              class="slider__layer"
+              data-swiper-parallax="30%"
+              style="background-image: url('img/footer/footer_1.png')"
+            ></div>
+            <canvas
+              data-swiper-parallax="20%"
+              class="particles slider__layer"
+              data-color="#dea29d"
+            ></canvas>
+            <div
+              class="slider__layer"
+              data-swiper-parallax="10%"
+              style="background-image: url('img/footer/footer_2.png')"
+            ></div>
+          </div>
         </div>
-        <div class="swiper-slide slider__item">
-          <div
-            class="slider__layer"
-            data-swiper-parallax="34%"
-            style="background-image: url(img/screen-1/header_0.png)"
-          ></div>
-
-          <canvas
-            class="particles slider__layer"
-            data-swiper-parallax="20%"
-            data-color="#525A6D"
-          ></canvas>
-          <div
-            class="slider__layer"
-            data-swiper-parallax="14%"
-            style="background-image: url(img/screen-1/header_1.png)"
-          ></div>
-        </div>
-        <div class="swiper-slide slider__item">
-          <div
-            class="slider__layer"
-            data-swiper-parallax="35%"
-            style="background-image: url(img/screen-1/layer-back.png)"
-          ></div>
-          <div
-            class="slider__layer"
-            data-swiper-parallax="25%"
-            style="background-image: url(img/screen-1/layer-middle.png)"
-          ></div>
-          <canvas
-            class="particles slider__layer"
-            data-swiper-parallax="18%"
-            data-color="#BE9164"
-          ></canvas>
-          <div
-            class="slider__layer"
-            data-swiper-parallax="14%"
-            style="background-image: url(img/screen-1/layer-front.png)"
-          ></div>
-        </div>
-        <div class="swiper-slide slider__item">
-          <div
-            class="slider__layer"
-            data-swiper-parallax="48%"
-            style="background-image: url(img/screen-3/layer-back.jpg)"
-          ></div>
-          <div
-            class="slider__layer"
-            data-swiper-parallax="35%"
-            style="background-image: url(img/screen-3/layer-middle.png)"
-          ></div>
-          <div
-            class="slider__layer"
-            data-swiper-parallax="29%"
-            style="background-image: url(img/screen-3/layer-ciri.png)"
-          ></div>
-          <canvas
-            class="particles slider__layer"
-            data-swiper-parallax="25%"
-            data-color="#938086"
-          ></canvas>
-          <div
-            class="slider__layer"
-            data-swiper-parallax="16%"
-            style="background-image: url(img/screen-3/layer-front.png)"
-          ></div>
-        </div>
-      </div>
+      </main>
     </div>
   </body>
 </html>
